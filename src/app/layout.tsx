@@ -6,7 +6,7 @@ import "./globals.scss"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Gojo Motors",
+  title: "G-select",
   description: "Your trusted partner for new and used cars, repairs, and inspections",
     generator: 'v0.dev'
 }
@@ -22,7 +22,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'

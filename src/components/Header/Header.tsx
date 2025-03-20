@@ -1,13 +1,19 @@
+'use client'
+
 import Link from "next/link"
 import styles from "./Header.module.scss"
+import { useState } from "react";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
-            {/* <Image src="/logo.svg" alt="G-select Logo" width={150} height={60} priority /> */}
             <div className={styles.alluraRegular}>
               <span style={{fontSize: '3rem', lineHeight: 1}}>G</span>
               -select
@@ -15,8 +21,10 @@ const Header = () => {
           </Link>
         </div>
         <nav className={styles.nav}>
-          <ul className={styles.navList}>
-
+          <ul className={`
+            ${styles.navList}
+            ${isOpen && styles.isOpen}
+          `}>
             <li className={styles.navItem}>
               <Link href="/new-cars" className={styles.navLink}>
                 New Cars
@@ -44,6 +52,24 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+      </div>
+      <div className={styles.mobile}>
+        {isOpen
+          ? <CloseIcon
+              className={`
+                ${styles.menuIcon}
+                ${isOpen && styles.active}
+              `}
+              onClick={() => setIsOpen(false)}
+            />
+          : <MenuIcon
+              className={`
+                ${styles.menuIcon}
+                ${!isOpen && styles.active}
+              `}
+              onClick={() => setIsOpen(true)}
+            />
+        }
       </div>
     </header>
   )

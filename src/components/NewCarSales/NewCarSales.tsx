@@ -11,7 +11,7 @@ const NewCarSales = () => {
 
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
-            <Image src="/new-car.jpg" alt="New Suzuki Car" width={500} height={300} className={styles.image} />
+            <Image src="/new_car.jpg" alt="New Suzuki Car" width={500} height={300} className={styles.image} />
           </div>
           <div className={styles.info}>
             <h3 className={styles.infoTitle}>Find Your Perfect New Suzuki</h3>

@@ -102,7 +102,7 @@ const RepairInspection = () => {
             <div className={styles.caseStudy}>
               <div className={styles.caseStudyImage}>
                 <Image
-                  src="/case-studies/engine-repair.jpg"
+                  src="/over_hole.jpg"
                   alt="Engine Repair"
                   width={400}
                   height={300}
@@ -140,7 +140,7 @@ const RepairInspection = () => {
             <div className={styles.caseStudy}>
               <div className={styles.caseStudyImage}>
                 <Image
-                  src="/case-studies/suspension-repair.jpg"
+                  src="/suspension.jpg"
                   alt="Suspension Repair"
                   width={400}
                   height={300}

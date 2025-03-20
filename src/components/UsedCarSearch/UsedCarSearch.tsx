@@ -16,12 +16,12 @@ const UsedCarSearch = () => {
               We offer a wide selection of thoroughly inspected used cars. Whether you&apos;re looking to buy or sell a used
               vehicle, our team is here to provide expert guidance and ensure you get the best value.
             </p>
-            <Link href="/used-cars" className={styles.button}>
+            <Link href="/used_cars" className={styles.button}>
               Search Used Cars
             </Link>
           </div>
           <div className={styles.imageWrapper}>
-            <Image src="/used-car.jpg" alt="Used Car" width={500} height={300} className={styles.image} />
+            <Image src="/used_car.jpg" alt="Used Car" width={500} height={300} className={styles.image} />
           </div>
         </div>
       </div>

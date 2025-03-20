@@ -9,7 +9,7 @@ export default function NewCarsPage() {
       <Header />
       <div className={styles.hero}>
         <div className={styles.overlay}>
-          <h1 className={styles.title}>New Car Sales & Model Search</h1>
+          <h1 className={styles.title}>New Car Sales</h1>
           <p className={styles.subtitle}>Explore our range of new Suzuki vehicles</p>
         </div>
       </div>

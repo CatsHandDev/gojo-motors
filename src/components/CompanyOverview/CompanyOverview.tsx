@@ -132,9 +132,6 @@ const CompanyOverview = () => {
 
           <div className={styles.businessGrid}>
             <div className={styles.businessCard}>
-              <div className={styles.businessIcon}>
-                <Image src="/icons/new-car.svg" alt="New Car Sales" width={60} height={60} />
-              </div>
               <h3 className={styles.businessTitle}>New Car Sales</h3>
               <p className={styles.businessText}>
                 As an authorized Suzuki dealership, we offer the complete range of new Suzuki vehicles with expert
@@ -143,9 +140,6 @@ const CompanyOverview = () => {
             </div>
 
             <div className={styles.businessCard}>
-              <div className={styles.businessIcon}>
-                <Image src="/icons/used-car.svg" alt="Used Car Sales" width={60} height={60} />
-              </div>
               <h3 className={styles.businessTitle}>Used Car Sales</h3>
               <p className={styles.businessText}>
                 We offer a wide selection of quality pre-owned vehicles that undergo thorough inspection and
@@ -154,9 +148,6 @@ const CompanyOverview = () => {
             </div>
 
             <div className={styles.businessCard}>
-              <div className={styles.businessIcon}>
-                <Image src="/icons/repair.svg" alt="Repair Services" width={60} height={60} />
-              </div>
               <h3 className={styles.businessTitle}>Repair Services</h3>
               <p className={styles.businessText}>
                 Our certified technicians provide comprehensive repair services for all makes and models, using
@@ -165,9 +156,6 @@ const CompanyOverview = () => {
             </div>
 
             <div className={styles.businessCard}>
-              <div className={styles.businessIcon}>
-                <Image src="/icons/inspection.svg" alt="Vehicle Inspection" width={60} height={60} />
-              </div>
               <h3 className={styles.businessTitle}>Vehicle Inspection</h3>
               <p className={styles.businessText}>
                 We provide thorough vehicle inspections to ensure your car is safe, reliable, and compliant with all
@@ -176,9 +164,6 @@ const CompanyOverview = () => {
             </div>
 
             <div className={styles.businessCard}>
-              <div className={styles.businessIcon}>
-                <Image src="/icons/financing.svg" alt="Financing" width={60} height={60} />
-              </div>
               <h3 className={styles.businessTitle}>Financing Solutions</h3>
               <p className={styles.businessText}>
                 We offer flexible financing options to help you purchase your dream car with manageable monthly
@@ -187,9 +172,6 @@ const CompanyOverview = () => {
             </div>
 
             <div className={styles.businessCard}>
-              <div className={styles.businessIcon}>
-                <Image src="/icons/insurance.svg" alt="Insurance" width={60} height={60} />
-              </div>
               <h3 className={styles.businessTitle}>Insurance Services</h3>
               <p className={styles.businessText}>
                 We partner with leading insurance providers to offer comprehensive coverage options for your vehicle.
